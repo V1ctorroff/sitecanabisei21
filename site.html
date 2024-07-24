@@ -2,59 +2,39 @@
 
 <head>
 
-    <title>nome do titulo do site aqui!</title>
+    <title>NarguIFBA</title>
 
     <!-- AQUI EM CIMA REFERENCIA O NOME QUE EXIBE NA JANELA DO SITE -->
 
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
 
     <!-- META CHARSET CONFIGURA O TIPO DE DADOS DO TEXTO APRESENTADO EVITA QUE OS ACENTOS NÃO SEJAM EXIBIDOS CORRETAMENTE -->
+
+    <link rel = "stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <table border="1" width="100%" height="100%"> <!-- MODELO DE TABELA USADO NA AULA DE PARANHOS PARA DIVIDIR O SITE, OU MAIS OU MENOS ISSO POIS FIZ NA MÃO -->
+    <div class="banner">
 
-        <tr>
-             <!-- TD É A LINHA ENQUANTO TR É A COLUNA, OU ALGO ASSIM KKKK NÃO LEMBRO BEM -->
+        <img src="logo.png" width="40" height="45">
+        <h1 id="titulo">Cannabis</h1>
+        <h2 id="texto-central">E se fosse legal?</h2>
 
-            <td align="center" colspan="3">
+    </div> <!-- AJUSTEI ISSO NO CSS COM A CLASSE E A POSIÇÃO-->
 
-                <img src="banner_paginaprincipal.png" width="30%" height="30%">
-                
-                <!-- IMAGEM, A SRC É O CAMINHO NA PASTA ONDE O PROJETO ESTÁ -->
+    <div class="topicos"> <!-- CAIXA DE TÓPICOS -->
 
-                <p><b>BANNER</b></p>
+        <h3 id = "titulo-topicos"><i>TÓPICOS:</i></h3>
+        <h3 id = "texto-topicos"><a href="#plantar"><b>Como Plantar</b></a></h3>
+        <h3 id = "texto-topicos"><a href="#fornecimento"><b>Onde Vender?</b></a></h3>
+        <h3 id = "texto-topicos"><a href="#dinheiro"><b>Como Lavar dinheiro</b></a></h3>
+        <h3 id = "texto-topicos"><a href="#paises"><b>Outros paises?</b></a></h3>
+        <h3 id = "texto-topicos"><a href="#riscos"><b>Riscos</b></a></h3>
+        <img id = "ad-topicos" src="ad.jpeg" alt="Ad" width="80%" height="70%">
 
-                <!-- O P É PRO TEXTO O B É PRA DEIXAR NEGRITO -->
-
-            </td>
-
-        </tr>
-
-        <tr>
-
-            <td align="center"><b>TÓPICOS</b></td>
-            <td align="center"><b>CONTEÚDO</b></td>
-            <td align="center"><b>FILTROS</b></td>
-
-        </tr>
-
-        <tr>
-
-            <td align="center" colspan="3">
-
-                <img src="rodapé_paginaprincipal.png" width="30%" height="30%"> <!-- IMAGEM, A SRC É O CAMINHO NA PASTA ONDE O PROJETO ESTÁ -->
-
-                <p><b>RODAPÉ</b></p>
-
-            </td>
-
-        </tr>
-
-
-    </table>
+    </div>
 
 
 </body>
