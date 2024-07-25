@@ -1,6 +1,12 @@
 body {
     background-color: #121212; /* ISSO DEIXA A COR DO SITE MEIO CINZA ESCURO PRA FICAR MODO NOTURNO, O FUNDO*/
-    margin: 0;
+    margin: 0; /* TIRA A MARGEM DA TELA */
+ 
+
+}
+
+body::-webkit-scrollbar { /* ESCONDE A BARRA DE SCROLL, FEIO E INÚTIL*/
+    display: none;
 }
 
 .banner {
@@ -14,6 +20,18 @@ body {
     border: 2px solid rgba(255, 255, 255, 0.134);;
 }
 
+.rodapé {
+    display: flex;
+    align-items: center;
+    padding-left: 6;
+    width: 99.3%; 
+    height: 50px;
+    background-color: rgb(44, 44, 54);
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.134);;
+    top: 310%;
+}
+
 .topicos {
     display: flex;
     flex-direction: column;
@@ -21,7 +39,7 @@ body {
     background-color: rgb(44, 44, 54);
     width: 15%;
     height: 75%;
-    position: relative;
+    position: fixed;
     top: 12.5%;
     left: 2%;
     border-radius: 10px;
@@ -40,6 +58,11 @@ body {
 #texto-central {
     margin-left: 33%;
     margin-bottom: 0,1%;
+}
+
+#verde {
+    color:rgba(76, 129, 77, 0.677);
+    padding-left: 5;
 }
 
 h1 {
@@ -62,4 +85,47 @@ h3 {
     padding-left: 10%;
     padding-bottom: 10%;
     border-radius: 20%;
+}
+
+.contraste {
+    background-color: rgba(22, 22, 29, 0.677);
+    width: 80%;
+    height: 300%;
+    border-radius: 2%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border: 3px solid rgba(76, 129, 77, 0.496);
+}
+
+.sessao {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 7%;
+    left: 25%;
+    }
+
+#plantar{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    background-color: rgba(32, 32, 220, 0);
+}
+
+p {
+    font-size: 20;
+    color:rgba(76, 129, 77, 0.677);
+}
+
+a{
+    color: rgba(76, 129, 77, 0.677);
+}
+
+a:visited{
+    color: rgba(76, 129, 77, 0.677);
+}
+
+a :hover{
+    color: rgba(255, 255, 255, 0.677);
 }
