@@ -32,6 +32,26 @@ body::-webkit-scrollbar { /* ESCONDE A BARRA DE SCROLL, FEIO E INÚTIL*/
     top: 310%;
 }
 
+.caixanavegacao {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 90%;
+    top: 1%;
+    width: 9%; 
+    height: 5%;
+    background-color: rgb(44, 44, 54);
+    border: 2px solid rgba(255, 255, 255, 0.134);;
+}
+
+#textonavegar {
+    padding-left: 10%;
+}
+
+#imagemnavegar {
+    padding-left: 7%;
+}
+
 .topicos {
     display: flex;
     flex-direction: column;
@@ -153,4 +173,9 @@ a :hover{
 
 #gmailogo {
     padding-left: 5px;
+}
+
+#imagem {
+    border-radius: 5%;
+    border: 5px solid rgba(76, 129, 77, 0.677);
 }
