@@ -9,6 +9,11 @@ body::-webkit-scrollbar { /* ESCONDE A BARRA DE SCROLL, FEIO E INÚTIL*/
     display: none;
 }
 
+#background { /* ISSO AQUI FOI GENIAL DMS KKKKKKKKKKKKKK */
+    position: fixed;
+    top: 0%;
+}
+
 .banner {
     display: flex; /* AQUI TEM NA ORDEM: O MÉTODO DE DISPLAY, COMO ALINHAR OS ITENS, A DISTANCIA DO ITEM ATÉ A LATERAL ESQUERDA, LARGURA, ALTURA, COR DO QUADRADO, O ESTILO DE POSIÇÃO (OU ALGO ASSIM, TO ENTENDENDO AINDA COMO FUNCIONA) E A DISTANCIA DA BORDA E DO TOPO*/
     align-items: center;
@@ -29,7 +34,7 @@ body::-webkit-scrollbar { /* ESCONDE A BARRA DE SCROLL, FEIO E INÚTIL*/
     background-color: rgb(44, 44, 54);
     position: relative;
     border: 2px solid rgba(255, 255, 255, 0.134);;
-    top: 310%;
+    top: 340%;
 }
 
 .caixanavegacao {
@@ -115,7 +120,7 @@ h3 {
 .contraste {
     background-color: rgba(22, 22, 29, 0.677);
     width: 79%;
-    height: 300%;
+    height: 330%;
     border-radius: 2%;
     position: absolute;
     top: 20%;
