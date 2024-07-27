@@ -3,7 +3,7 @@ Grupo de criação site do ifba
 
 Sofia
 
-João h.
+João Henrique.
 
 João Victor
 
