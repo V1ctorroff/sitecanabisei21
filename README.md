@@ -1,16 +1,18 @@
 # NOSSO SITE
 Grupo de criação site do ifba
 
-Sofia
+Sofia Cavalcante
 
-João Henrique.
+João Henrique
 
 João Victor
 
-Kállysson 
+Kállysson Victor 
 
 Maria Eduarda
 
 tema: CANNABIS
+
+Site: NarguIFBA
 
 data: não especificada
