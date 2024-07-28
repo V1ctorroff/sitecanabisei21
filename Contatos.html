@@ -1,0 +1,144 @@
+<html>
+
+<head>
+
+
+    <title>NarguIFBA</title> <!-- NOME DO SITE -->
+
+    <link rel="icon" href="imagens/logojanela.png" type="image/png">
+
+
+</head>
+
+<body topmargin="0%" leftmargin="0%" bgcolor="#121212">
+
+    <table border="0" width="100%" cellspacing="0">
+
+        <tr>
+
+            <td width="40" height="45" bgcolor="#2C2C36">
+                <a href="homepage_semcss.html">
+
+                    <img src="imagens/logo.png" width="40" height="45" alt="Logo"> <!-- LOGO -->
+
+                </a>
+
+
+            </td>
+
+            <td width="100" align="center" bgcolor="#2C2C36">
+
+                <p style="color: #B8BBBE; font-size: 25; padding-left: 5;"><b>Cannabis</b></p>
+                <!-- TEXTO AO LADO DA LOGO, NÃO CONSEGUIR ALINHAR VERTICALENTE, ENTÃO VAI FICAR ACIMA DA IMG MSM-->
+
+            </td>
+
+            <td colspan="3" bgcolor="#2C2C36"></td>
+
+            <td align="right" bgcolor="#2C2C36" valign="center">
+
+                <p style="color: #B8BBBE; font-size: 25;"><b>Suporte</b></p> <!--TITULO, MAS A PARTE BRANCA-->
+
+            </td>
+
+            <td width="0.1" bgcolor="#2C2C36">
+
+            </td>
+
+            <td align="left" bgcolor="#2C2C36"> <!--SÓ TITULO, AQUELA PARTE VERDE LÁ-->
+
+                <p style="color: #3F6645; font-size: 25;"><i><b>24Hrs!</b></i></p>
+
+            </td>
+
+            <td width="10%" bgcolor="#2C2C36" valign="center" align="center">
+                <!-- BOTÃO QUE VAI REDIRECIONAR A PESSOA PRA ESCOLHA DE PÁGINAS LÁ-->
+
+                <a href="/redirecionar.html" style="color: #B8BBBE;">
+
+                    <img src="imagens/navegar.png" width="100%" alt="navegar">
+
+                </a>
+
+
+            </td>
+
+            <tr>
+                <td height = "50px"></td>
+            </tr>
+
+        </tr>
+
+    </table>
+
+    <table border="0" width="100%" heigth="100%">
+        <tr>
+            <td width="40%" valign="top">
+                <h1 style="color: #3F6645;"><i>Nossos contatos:</i></h1>
+                <h3 style="color: #B8BBBE;"><i>+ 55 (77) 9 9909-8432 - Chefe da boca</i></h3>
+                <h3 style="color: #B8BBBE;"><i>+ 55 (73) 9 8113-9287 - Olheiro</i></h3>
+                <h3 style="color: #B8BBBE;"><i>+ 55 (73) 9 9930-8187 - Billie Eilish do crime</i></h3>
+                <h3 style="color: #B8BBBE;"><i>+ 55 (73) 9 9974-2012 - Estagiária</i></h3>
+                <h3 style="color: #B8BBBE;"><i>+ 55 (73) 9 8232-4231 - Pelé do movimento</i></h3>
+                <h1 style="color: #3F6645;"><i>Nossa equipe:</i></h1>
+                <img style="border: 3px solid #3F6645; border-radius: 10%;" src="imagens/teste.jpeg" width="40%">
+            </td>
+
+            <td valign="top" width="25%">
+                <h1 style="color: #3F6645;"><i>Abrir Ticket:</i></h1>
+
+                <form action="abrirticket.php" method="post" style="color: #B8BBBE; font-size: 20;">
+                    <b>Nome Completo:*</b><br>
+                    <input name="nome" type="text" size="50"
+                        style="background-color: #3F6645; border: 1px solid #B8BBBE; color: #B8BBBE;"><br><br>
+                    <!--  SEI QUE VOCÊ NÃO ENSINOU BACKGORUND COLOR PARANHOS, MAS FUI PELA LÓGICA ESCREVI O QUE EU QUERIA E TINHA ;)  -->
+                    <b>Seu E-mail:*</b><br>
+                    <input name="email" type="email" size="35"
+                        style="background-color: #3F6645;border: 1px solid #B8BBBE; color: #B8BBBE;"><br><br>
+                    <b>Seu Número:</b><br>
+                    <input name="numero" type="number"
+                        style="background-color: #3F6645;border: 1px solid #B8BBBE; color: #B8BBBE;"><br><br>
+                    <b>Número do seu Cartão:*</b><br>
+                    <input name="Cartão" type="number"
+                        style="background-color: #3F6645;border: 1px solid #B8BBBE; color: #B8BBBE;"><br><br>
+                    <b>Senha:*</b><br>
+                    <input name="senha" type="password"
+                        style="background-color: #3F6645;border: 1px solid #B8BBBE; color: #B8BBBE;"><br><br>
+                </form>
+
+            </td>
+
+            <td align="center" valign="top">
+
+                <form action="abrirticket.php" method="post" style="color: #B8BBBE; font-size: 20;">
+                    <b>Descreva seu problema:*</b><br>
+                    <input name="descricao" type="text" size="30"
+                        style="background-color: #3F6645; border: 1px solid #B8BBBE; color: #B8BBBE;"><br><br>
+                    <b>Já tomou golpe?</b><br>
+                    <input type="radio" name="golpe"><b>Sim.</b>
+                    <input type="radio" name="golpe"><b>Não ainda.</b><br><br>
+                    <b>Leu nossos termos?</b><br>
+                    <input type="radio" name="termos"><b>Quais termos?</b>
+                    <input type="radio" name="termos"><b>Não preciso.</b><br><br>
+                    <b>Anexos?</b><br><br>
+                    <input type="file">
+                    <h2 style="color: #3F6645;"><i>Enviar?</i></h1>
+                        <input type="submit" value="ENVIAR"
+                            style="background-color: #3F6645; border: 1px solid #B8BBBE; border-radius: 10%;">
+                </form>
+            </td>
+
+
+
+        </tr>
+
+    </table>
+
+
+
+
+
+</body>
+
+
+</html>
