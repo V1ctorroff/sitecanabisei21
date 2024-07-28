@@ -7,7 +7,7 @@ const port = 1024;
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/site.html');
+  res.sendFile(__dirname + '/homepage_semcss ssh.html');
 });
 
 app.listen(port, '0.0.0.0', () => {
